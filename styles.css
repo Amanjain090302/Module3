@@ -87,6 +87,12 @@ body {
 
 /* Main Content Starts */
 
+h2 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: maroon;
+}
+
 
 /* Food Tile Start*/
 
