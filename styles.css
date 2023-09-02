@@ -1,0 +1,217 @@
+body {
+    color: #fff;
+    background-color: blanchedalmond;
+}
+
+
+/* Header Style Starts */
+
+#header-nav {
+    background-color: rgb(245, 177, 5);
+}
+
+
+/* Logo style start */
+
+#Logo {
+    background: url('images/logo-removebg-preview.png') no-repeat;
+    width: 150px;
+    height: 85px;
+    margin: 10px 15px 10px 0px;
+    padding: 10px, 10px, 10px, 10px;
+}
+
+
+/* Logo style Ends */
+
+
+/* Brand name Style Start */
+
+.container .navbar-brand {
+    vertical-align: text-top;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Brand name Style Ends */
+
+
+/* header button styles start  */
+
+#list {
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+#list a {
+    text-align: center;
+}
+
+#list a span {
+    font-size: 1.4em;
+}
+
+
+/* header button styles Ends  */
+
+
+/* Header Style Ends */
+
+
+/* Footer Starts */
+
+#footer-home {
+    border: 2px solid rgb(37, 35, 35);
+    background-color: #222;
+    border-radius: 0;
+}
+
+#date-time,
+#Address,
+#comments {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8em;
+    font-size: 1em;
+}
+
+#footer-home h4 {
+    text-decoration: underline white;
+}
+
+
+/* Footer Ends */
+
+
+/* Main Content Starts */
+
+
+/* Food Tile Start*/
+
+#Lunch-tile,
+#High-Tea-tile,
+#Dinner-tile {
+    color: maroon;
+    border: 2px solid rgb(245, 177, 5);
+    position: relative;
+    height: 250px;
+    width: 100%;
+    /* margin-bottom: 15px; */
+    margin: 15px 100px 15px 15px;
+    overflow: hidden;
+}
+
+
+/* Food Tile Start*/
+
+
+/* Main Content Ends */
+
+
+/* Responsive with size Start */
+
+@media (min-width:1200px) {
+    /* Main content Start */
+    #Lunch-tile,
+    #High-Tea-tile,
+    #Dinner-tile {
+        color: maroon;
+        border: 2px solid rgb(245, 177, 5);
+        position: relative;
+        height: 250px;
+        width: 100%;
+        /* margin-bottom: 15px; */
+        margin: 15px 100px 15px 15px;
+        overflow: hidden;
+    }
+    /* Main content Ends */
+    /* footer start */
+    .container #Address {
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        height: 200px;
+    }
+    /* footer Ends */
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    /* Main content Start */
+    #Lunch-tile,
+    #High-Tea-tile,
+    #Dinner-tile {
+        color: maroon;
+        border: 2px solid rgb(245, 177, 5);
+        position: relative;
+        height: 250px;
+        width: 100%;
+        /* margin-bottom: 15px; */
+        margin: 15px 100px 15px 15px;
+        overflow: hidden;
+    }
+    /* Main content Ends */
+    /* footer start */
+    .container #Address {
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        height: 205px;
+    }
+    /* footer Ends */
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    /* Main content Start */
+    #Lunch-tile,
+    #High-Tea-tile,
+    #Dinner-tile {
+        color: maroon;
+        border: 2px solid rgb(245, 177, 5);
+        position: relative;
+        height: 250px;
+        width: 100%;
+        /* margin-bottom: 15px; */
+        margin: 15px 100px 15px 15px;
+        overflow: hidden;
+    }
+    /* Main content Ends */
+    /* footer start */
+    .container #Address {
+        border-right: 2px solid white;
+        border-left: 2px solid white;
+        height: 250px;
+    }
+    /* footer Ends */
+}
+
+@media (max-width:767px) {
+    /* Main content Start */
+    #Lunch-tile,
+    #High-Tea-tile,
+    #Dinner-tile {
+        color: maroon;
+        border: 2px solid rgb(245, 177, 5);
+        position: relative;
+        height: 350px;
+        width: 100%;
+        /* margin-bottom: 15px; */
+        margin: 15px 100px 15px 15px;
+        overflow: hidden;
+    }
+    /* Main content Ends */
+    /* footer start */
+    .container #date-time,
+    #Address,
+    #comments {
+        width: 400px;
+        margin: 0 auto 15px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.8em;
+        font-size: 1em;
+    }
+    /* footer Ends */
+}
+
+
+/* Responsive with size Ends */
