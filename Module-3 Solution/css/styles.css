@@ -14,7 +14,7 @@ body {
 /* Logo style start */
 
 #Logo {
-    background: url('images/logo-removebg-preview.png') no-repeat;
+    background: url('../images/logo-removebg-preview.png') no-repeat;
     width: 150px;
     height: 85px;
     margin: 10px 15px 10px 0px;
